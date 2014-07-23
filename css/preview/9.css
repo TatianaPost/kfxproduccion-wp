@@ -1,0 +1,96 @@
+.firstcolor,
+#topheader .navigationtop .cl-effect-21 > ul > li > a:hover,
+#topheader .navigationtop .cl-effect-21 > ul > li > a:focus,
+#topheader .navigationtop #topnav ul.topmenu > li.current-menu-item > a,
+.login-popup .close-btn:hover,
+.login-popup #additional-settings a, a {
+    color:#1abc9c;
+}
+
+.firstbg,.ale-toggle span.ui-icon,.ale-toggle .ui-state-active .ui-icon,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button {
+    background-color:#1abc9c;
+}
+
+.topoutline,.fourthtop {
+    border-color:#1abc9c;
+}
+
+blockquote {
+    border-right:6px solid #1abc9c;
+}
+
+#topheader .navigationtop .cl-effect-21 > ul > li > a::before,
+#topheader .navigationtop .cl-effect-21 > ul > li > a::after,
+#topheader .navigationtop #topnav ul.topmenu > li.current-menu-item > a:before,
+#topheader .navigationtop #topnav ul.topmenu > li.current-menu-item > a:after,
+.login-popup #form .submit .button,
+.tagcloud a:hover,
+.aletheme-flickr-widget li.picture,
+.aletheme-blog-widget ul li .entry-thumb,
+.aletheme-mostcommented-widget ul li .entry-thumb,
+.ale-service .iconbox {
+    background-color:#1abc9c;
+}
+figure.tubmapost figcaption {
+    background: rgba(26, 188, 156,.55);
+}
+.teamphotos .teamitem figure:hover figcaption {
+    background: rgba(26, 188, 156,.85);
+}
+.ale-tabs .ale-nav li a:hover {
+    background: #1abc9c!important;
+    border-top: 1px solid #1abc9c;
+    border-left: 1px solid #1abc9c;
+    border-right: 1px solid #1abc9c;
+}
+
+.ale-tabs .ale-nav .ui-tabs-selected a,
+.ale-tabs .ale-nav .ui-tabs-active a {
+    background: #1abc9c!important;
+    border-top: 1px solid #1abc9c;
+    border-left: 1px solid #1abc9c;
+    border-right: 1px solid #1abc9c;
+}
+.ale-tabs .ale-tab {
+    border-bottom: 5px solid #1abc9c;
+}
+.secondcolor,#topnav a {
+    color:#333333;
+}
+.topblack {
+    border-top: 18px solid rgba(26, 188, 156,.35);;
+}
+
+.secondbg {
+    background-color:#333333;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=search]:focus,
+input[type=password]:focus,
+textarea:focus {
+    background-color:#5f6062;
+    border-color:#5f6062;
+}
+.tagcloud a,.jspDrag {
+    background-color:#5f6062;
+}
+blockquote {
+    background: url(../images/quote9.png) 23px 22px no-repeat;
+}
+section.portfoliocat .reviews {
+    background: url(../images/rev9.png) left 5px no-repeat;
+}
+#topheader .headerbox .tophead {
+    background: url(../images/top9.png) no-repeat;
+}
+section.fromblog .titlefromblog {
+    background: url(../images/fromblog9.png) right top no-repeat;
+}
