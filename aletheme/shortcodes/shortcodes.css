@@ -546,7 +546,7 @@ a.ale-button.black:hover {
     box-shadow: 1px 1px 3px #a5a5a5;
 }
 .ale-service.dark {
-    background: #333333;
+    background: #2D2D2D;
     color:#ffffff;
 }
 .ale-service .iconbox {

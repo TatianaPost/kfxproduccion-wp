@@ -54,7 +54,7 @@ get_header(); ?>
         <div class="wrapper cf">
             <div class="titlefromblog">
                 <div class="tit headerfont">
-                    <?php _e('Recent<br />from blog','aletheme'); ?>
+                    <?php _e('Repotajes<br />recientes','aletheme'); ?>
                 </div>
                 <div class="sliderarrows">
                     <div class="custom-direction-nav"></div>

@@ -9,7 +9,8 @@
                 <a href="<?php echo home_url(); ?>/" class="alelogo"><?php echo bloginfo('name'); ?></a>
                 <?php } ?>
             </h1>
-        </div>
+        </div>			
+    </div>
     <div class="navigationtop">
         <nav id="topnav" class="wrapper cl-effect-21" role="navigation">
             <?php
