@@ -1,5 +1,5 @@
 <header id="topheader" class="cf">
-    <div class="headerbox wrapper cf">
+    <div class="headerbox cf">
         <div class="tophead"></div>
         <div class="logo">
             <h1>
@@ -10,19 +10,6 @@
                 <?php } ?>
             </h1>
         </div>
-        <div class="headsearch">
-            <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>" >
-                <div class="sbox">
-                    <input type="text" placeholder="<?php _e('Search','aletheme'); ?>" value="<?php get_search_query() ?>" name="s" id="s" />
-                </div>
-            </form>
-        </div>
-        <div class="headright">
-            <div class="loginlink">
-                <?php if(function_exists('add_modal_login_button')){ add_modal_login_button( $login_text = 'Log in &nbsp;/&nbsp; Register', $logout_text = 'Logout', $logout_url = '', $show_admin = true ); } else { echo "Install the plugin"; } ?>
-            </div>
-        </div>
-    </div>
     <div class="navigationtop">
         <nav id="topnav" class="wrapper cl-effect-21" role="navigation">
             <?php
