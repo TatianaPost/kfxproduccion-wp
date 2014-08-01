@@ -9,7 +9,19 @@
                 <a href="<?php echo home_url(); ?>/" class="alelogo"><?php echo bloginfo('name'); ?></a>
                 <?php } ?>
             </h1>
-        </div>			
+        </div>
+        <div class="headsearch">
+           <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>" >
+               <div class="emlbox">
+                    <a href="mailto:<?php echo ale_get_option('conemail'); ?>" class="secondcolor"><?php echo ale_get_option('conemail'); ?></a>
+                </div>
+            </form>
+        </div>
+        <div class="headright">            
+                <div class="phonetext">
+                    <?php echo ale_get_option('phonenum'); ?>
+                </div>            
+        </div>
     </div>
     <div class="navigationtop">
         <nav id="topnav" class="wrapper cl-effect-21" role="navigation">
