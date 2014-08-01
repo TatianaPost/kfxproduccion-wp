@@ -43,12 +43,7 @@ get_header(); ?>
             <div class="weldesc">
                 <?php the_content(); ?>
             </div>
-            <?php if(ale_get_meta('aboutlink')){ ?>
-            <div class="buttonabout">
-                <a href="<?php echo ale_get_meta('aboutlink'); ?>" class="button"><?php _e('Take a tour','aletheme'); ?></a>
-            </div>
-            <?php } ?>
-        <?php endwhile; endif; ?>
+         <?php endwhile; endif; ?>
     </section>
     <section class="fromblog">
         <div class="wrapper cf">
