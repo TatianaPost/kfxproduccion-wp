@@ -6,34 +6,7 @@
 get_header(); ?>
 <section class="homepage cf">
     <section class="topfullslider cf">
-        <div class="newhomeslider wrapper">
-            <ul class="slides">
-                <?php $slider = ale_sliders_get_slider(ale_get_option('sliderslug'));  ?>
-                <?php if($slider):?>
-                    <?php foreach ($slider['slides'] as $slide) : ?>
-                        <li>
-                            <figure>
-                                <img src="<?php echo $slide['image']; ?>" alt="<?php echo $slide['title']; ?>" />
-                                <figcaption>
-                                    <div class="sliderdata">
-                                        <?php if($slide['title']){ ?>
-                                            <div class="titleslide headerfont">
-                                                <?php echo $slide['title']; ?>
-                                            </div>
-                                        <?php } ?>
-                                        <?php if($slide['description']){ ?>
-                                            <div class="descriptionslide">
-                                                <?php echo $slide['description']; ?>
-                                            </div>
-                                        <?php } ?>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </li>
-                    <?php endforeach; ?>
-                <?php endif;?>
-            </ul>
-        </div>
+		<?php putRevSlider("pagina-principal","homepage") ?> 
     </section>
     <section class="welcome wrapper cf">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
