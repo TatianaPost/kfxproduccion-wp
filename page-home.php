@@ -55,7 +55,7 @@ get_header(); ?>
     <section class="portfoliocat">
         <div class="wrapper cf">
             <div class="titlebox headerfont">
-                <?php _e('Portfolio','aletheme'); ?>
+                <?php _e('Testimonios','aletheme'); ?>
             </div>
             <?php wp_reset_query(); global $query_string; query_posts($query_string); ?>
             <div class="reviews cf">
