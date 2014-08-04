@@ -129,38 +129,6 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="partners">
-        <div class="wrapper">
-            <div class="linetop cf">
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink1'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg1'); ?>" alt="Partner"/> </a>
-                </div>
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink2'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg2'); ?>" alt="Partner"/> </a>
-                </div>
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink3'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg3'); ?>" alt="Partner"/> </a>
-                </div>
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink4'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg4'); ?>" alt="Partner"/> </a>
-                </div>
-            </div>
-            <div class="linebottom cf">
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink5'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg5'); ?>" alt="Partner"/> </a>
-                </div>
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink6'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg6'); ?>" alt="Partner"/> </a>
-                </div>
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink7'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg7'); ?>" alt="Partner"/> </a>
-                </div>
-                <div class="itempar">
-                    <a href="<?php echo ale_get_meta('ptlink8'); ?>" target="_blank"><img src="<?php echo ale_get_meta('ptimg8'); ?>" alt="Partner"/> </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    </section>    
 </section>
 <?php get_footer(); ?>
